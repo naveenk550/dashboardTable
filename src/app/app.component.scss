@@ -25,7 +25,7 @@
           box-shadow: 0px 1px 2px #00000014;
           color: #333;
           padding: 10px;
-          text-shadow: 1px 1px 1px #fff;
+          text-shadow: none;
           white-space: break-spaces;
           font-size: 11px;
           font-weight: bold;
@@ -62,6 +62,7 @@
           text-align: left;
           p {
           text-align: left;
+          margin-bottom: 0.5rem;
           }
           span {
             text-align: left !important;
@@ -69,6 +70,8 @@
             letter-spacing: 0.28px;
             color: #333333;
             opacity: 1;
+            font-weight: normal;
+            text-shadow: none;
           }
         }
       }
@@ -99,9 +102,16 @@
           .product-details {
             padding-right: 15px;
 
+            span {
+              color: #6E6E6E;
+              font-weight: bold;
+            }
+
             span + span {
               padding-left: 2px;
               font-size: 10px;
+              color: #4B4B4B;
+              font-weight: normal;
             }
             .sp {
               color: #15878C;
@@ -115,6 +125,7 @@
           span {
               display: block;
               padding-bottom: 5px;
+              color: #4B4B4B;
               a {
                   color: #2780EA;
                   text-decoration: none;
@@ -170,6 +181,10 @@
             border-radius: 2px;
             height: 15px;
             text-shadow: none;
+            background-color: #EAEAEA;
+          }
+          .progress-bar{
+            background-color: #2680EB;
           }
         }
         
