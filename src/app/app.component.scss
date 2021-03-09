@@ -1,5 +1,6 @@
 .adb-wrapper {
   position: relative;
+  margin-top: 20px;
 
   .adb-scroller {
     overflow-x: scroll;
@@ -59,6 +60,7 @@
 
         .account-name {
           text-align: left;
+          margin-top: 45px;
           p {
           text-align: left;
           margin-bottom: 0.5rem;
